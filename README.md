@@ -1,4 +1,4 @@
-# Password-Locker🔒
+# Password Locker
 
 ### CREATED BY  MUGO NDUNGU
 
@@ -28,7 +28,7 @@ VSCode Text Editor
 
 To use the application on the web follow the outlined steps:
 1. Visit the following page
- https://github.com/Jamesnduge/Password-lock.git
+ https://github.com/mugo-ndungu/PasswordLocker.git
 2. clone the repository
 3. make sure you install the python requirements and then run "python3.7 run.py" command
 
@@ -36,16 +36,16 @@ To use the application on the web follow the outlined steps:
 
 ## Known bugs
 
-There are no Known bugs. If any bug seen, report to, jmaes_mwangi@aol.com
+There are no Known bugs. If any bug seen, report to, twinnymugo@gmail.com
 
 ## Support or contribute
 
-If you may require to help improve the application, contact the author at: james_mwangi@aol.com
+If you may require to help improve the application, contact the author at: twinnymugo@gmail.com
 
 
 ## Contact information
 
-For any questions or suggestions contact me through james_mwangi@aol.com
+For any questions or suggestions contact me through twinnymugo@gmail.com
 
 
 -----------------------------------------------------------------------------
