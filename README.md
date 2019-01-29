@@ -34,3 +34,12 @@ To use the application on the web follow the outlined steps:
 
 ---------------------------------------------------------------------
 
+## Known bugs
+
+There are no Known bugs. If any bug seen, report to, jmaes_mwangi@aol.com
+
+## Support or contribution instructions
+
+If you may require to help improve the application, contact the author at: james_mwangi@aol.com
+
+
