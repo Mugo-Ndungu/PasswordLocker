@@ -25,3 +25,12 @@ class User:
 
 
         
+
+    def delete_user(self):
+
+        '''
+        delete_user method deletes a saved user from the user_list
+        '''
+
+        User.user_list.remove(self)
+
