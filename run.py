@@ -87,7 +87,7 @@ def main():
                     print("\n")
                     print("New User {username} Created.\n")
 
-                elif short_code == 'cc':
+            elif short_code == 'cc':
                         print("\nLogin to your Account")
                         print("."*40)
                         print("\nUsername?")
@@ -112,14 +112,13 @@ def main():
 
                                 print("\nChoose:")
                                 print("."*20)
-                                print(
-                                        "'gp' - program to generate your password for you, 'cp' - create your own password")
-                                        password_creation_input = input()
-                                        if password_creation_input == "cp":
-                                        print("\nEnter your password")
-                                        print("."*20)
-                                        password = input()
-                                        elif password_creation_input == "gp":
+                                print("'gp' - program to generate your password for you, 'cp' - create your own password")
+                                password_creation_input = input()
+                                if password_creation_input == "cp":
+                                    print("\nEnter your password")
+                                    print("."*20)
+                                    password = input()
+                                elif password_creation_input == "gp":
                                         chars = "abcdefghijklmnopqrstuvwxyz1234567890"
                                         password = "".join(random.choice(chars) for _ in range(8))
                                         print("\nYour password is: **{password}**")
@@ -130,36 +129,36 @@ def main():
                                         print(
                                         "New credentials {account}, {login_name}, {password} created")
 
-                                 else:
-                    print("Wrong password or username. Please Try again.\n Username?")
-                print("."*20)
-                username = input()
-                print("\nPassword?")
-                print("."*20)
-                password = input()
-                if check_existing_users(password):
-                    print("\nWelcome back!")
-                else:
-                    print("You don't have an account.\n")
+                        else:
+                                        print("Wrong password or username. Please Try again.\n Username?")
+                                        print("."*20)
+                                        username = input()
+                                        print("\nPassword?")
+                                        print("."*20)
+                                        password = input()
+                                        if check_existing_users(password):
+                                            print("\nWelcome back!")
+                                        else:
+                                            print("You don't have an account.\n")
 
-        elif short_code == 'dc':
-            if display_credentials():
-                print("Here is a list of your credentials:")
-                print("."*40)
+                                    elif short_code == 'dc':
+                                    if display_credentials():
+                                        print("Here is a list of your credentials:")
+                                        print("."*40)
 
-                for credential in display_credentials():
-                    print(
-                        "\nAccount: {credential.account}\nLogin Name: {credential.login}\nAccount Password: {credential.password}")
-            else:
-                print("\n You don't seem to have any credentials saved yet")
+                                        for credential in display_credentials():
+                                            print(
+                                                "\nAccount: {credential.account}\nLogin Name: {credential.login}\nAccount Password: {credential.password}")
+                                    else:
+                                        print("\n You don't seem to have any credentials saved yet")
 
-        elif short_code == 'ex':
-            print("."*50)
-            print("Thank you for using Pass-locker...")
-            print("."*50)
-            break
+                                elif short_code == 'ex':
+                                    print("."*50)
+                                    print("Thank you for using Pass-locker...")
+                                    print("."*50)
+                                    break
 
-        else:
-            print("Sorry, I didn't get that. Please use the short codes\n")
+                                else:
+                                    print("Sorry, I didn't get that. Please use the short codes\n")
 if __name__ == '__main__':
     main()
