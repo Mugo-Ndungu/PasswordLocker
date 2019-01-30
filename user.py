@@ -1,12 +1,12 @@
-class Users:
+class User:
     '''
     User class for user input 
     '''
 
     user_list = [] # User Empty list
 
-    def __init__(self, user_name, password):
-        self.username = user_name
+    def __init__(self, username, password):
+        self.username = username
         self.password = password
 
     def save_user(self):
@@ -15,7 +15,7 @@ class Users:
         save_usermethod saves user objects into user_list
         '''
 
-        Users.user_list.append(self)
+        User.user_list.append(self)
 
     @classmethod
     def user_exists(cls, characters):
