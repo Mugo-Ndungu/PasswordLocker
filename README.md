@@ -2,7 +2,7 @@
 
 ### CREATED BY  MUGO NDUNGU
 
-----------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------;
 
 ## Project Objectives
 
@@ -17,12 +17,12 @@ VSCode Text Editor
 
 ## Behaviour driven Development (BDD)
 
-|Behaviour         |  Specification |         
+|Behaviour         |  Specification |
 |------------------|-------------------|
 | enter credentials| credentials outputted                  |
 
 
----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------;
 
 ## User Requirements.
 
@@ -32,7 +32,7 @@ To use the application on the web follow the outlined steps:
 2. clone the repository
 3. make sure you install the python requirements and then run "python3.7 run.py" command
 
----------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------;
 
 ## Known bugs
 
@@ -48,7 +48,7 @@ If you may require to help improve the application, contact the author at: twinn
 For any questions or suggestions contact me through twinnymugo@gmail.com
 
 
------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------;
 ## Copyright and license information
 
 MIT License
